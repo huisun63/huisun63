@@ -53,3 +53,8 @@ print(device)
 #삭제
 del device["아이폰"]
 print(device)
+
+
+for k,v in device.items():
+    print(k,v)
+
